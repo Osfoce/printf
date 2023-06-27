@@ -9,7 +9,7 @@
  * @width: To get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: The Numbers of chars printed.
+ * Return: The Numbers of charscter printed.
  */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -61,7 +61,7 @@ int print_pointer(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of character printed
  */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -101,7 +101,7 @@ int print_non_printable(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Numbers of chars printed
+ * Return: Numbers of character printed
  */
 
 int print_reverse(va_list types, char buffer[],
@@ -144,7 +144,7 @@ int print_reverse(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Numbers of chars printed
+ * Return: Numbers of character printed
  */
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
