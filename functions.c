@@ -3,7 +3,7 @@
 /************************* PRINT CHAR *************************/
 
 /**
- * print_char - Prints a char
+ * print_char - Prints a character
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -99,7 +99,7 @@ int print_percent(va_list types, char buffer[],
 
 /****** PRINT INT ******/
 /**
- * print_int - Print int
+ * print_int - Print intiger
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
